@@ -1,0 +1,46 @@
+ h1 {
+    color: white;
+    font-size: 1cm;
+    font-family: sans-serif;
+    margin: auto;
+    width: 400px;
+    letter-spacing: 2pt;
+
+}
+a {
+    color: white;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+    width: 5cm;
+    margin-top: 1cm;
+    text-decoration: none;
+
+}
+#honlap {
+    color: white;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+    width: 6cm;
+    margin-top: 0cm;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+}
+body {
+    background-color: cadetblue;
+}
+.szoveg {
+
+}
+
+img {
+    width: 150px;
+    margin-top: 1cm;
+    margin-left: 1cm;
+}
+#kép {
+    width: 300px;
+}
