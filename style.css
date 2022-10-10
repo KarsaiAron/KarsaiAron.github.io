@@ -32,9 +32,6 @@ a:hover {
 body {
     background-color: cadetblue;
 }
-.szoveg {
-
-}
 
 img {
     width: 150px;
@@ -43,4 +40,14 @@ img {
 }
 #kép {
     width: 300px;
+}
+button:hover {
+    color: aqua;
+}
+button {
+    background-color: crimson;
+    border-color: crimson;
+    font-size: 1cm;
+    margin-left: 3cm;
+    
 }
