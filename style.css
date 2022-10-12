@@ -41,13 +41,46 @@ img {
 #kép {
     width: 300px;
 }
-button:hover {
+a.x:hover {
     color: aqua;
+    background-color: burlywood;
 }
-button {
+a.x {
     background-color: crimson;
     border-color: crimson;
-    font-size: 1cm;
-    margin-left: 3cm;
+    font-size: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px black;
+    padding: 5px;
+    text-align: center;
+    margin-right: 12cm;
     
+}
+a.y {
+    background-color: crimson;
+    border-color: crimson;
+    font-size: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px black;
+    padding: 5px;
+    text-align: center;
+    margin-left: 10cm;
+}
+a.y:hover {
+    color: aqua;
+    background-color: burlywood;
+}
+a.z {
+    background-color: crimson;
+    border-color: crimson;
+    font-size: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px black;
+    padding: 5px;
+    text-align: center;
+    margin-right: -10cm;
+}
+a.z:hover {
+    color: aqua;
+    background-color: burlywood;
 }
