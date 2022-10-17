@@ -75,7 +75,7 @@ function start() {
     var players = [player1, player2];
 
     get("state").style.color = Fills.Def;
-    get("state").innerHTML = "Ongoing"
+    get("state").innerHTML = ""
 
     window.addEventListener("keydown", event => {
         players.forEach(player => {
@@ -97,6 +97,6 @@ function start() {
 function stopper(player) {
     stop++;
     get("state").style.color = player.fill;
-    get("state").innerHTML = player.name + " has died..."
+    get("state").innerHTML = player.name + " Valaki meghalt"
     clearInterval(updater);
 }
