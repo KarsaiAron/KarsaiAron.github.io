@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K.Áron tron</title>
+<style type="text/css">
+     * {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: greenyellow;
+    background-size: cover;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+#state {
+    color:rgb(130, 190, 214);
+    text-shadow: 1px 1px 3px black;
+}
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+td {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(247, 231, 195);
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    user-select: none;
+}
+td:hover {
+    background-color: rgb(218, 227, 234);
+}
+button {
+    border: none;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    box-shadow: 1px 1px 3px rgb(41, 42, 45);
+    cursor: pointer;
+    text-align: center;
+    color:wheat;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: rgb(247, 231, 195);
+}
+
+</style>
+</head>
+<body>
+    <main>
+        <p id="state">kezdés</s></p>
+        <table id="game"></table>
+        <button onclick="start()">start</button>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
