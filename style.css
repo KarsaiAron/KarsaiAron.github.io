@@ -30,7 +30,9 @@ a:hover {
     color: black;
 }
 body {
-    background-color: cadetblue;
+    background-image: url(hatter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 img {
@@ -42,45 +44,45 @@ img {
     width: 300px;
 }
 a.x:hover {
-    color: aqua;
+    color: #573A22;
     background-color: burlywood;
 }
 a.x {
-    background-color: crimson;
-    border-color: crimson;
+    background-color: #BE7A37;
+    border-color: #BE7A37;
     font-size: 30px;
-    border-radius: 5px;
     box-shadow: 1px 1px 4px black;
     padding: 5px;
     text-align: center;
     margin-right: 12cm;
+    border-style: double;
     
 }
 a.y {
-    background-color: crimson;
-    border-color: crimson;
+    background-color: #BE7A37;
+    border-color: #BE7A37;
     font-size: 30px;
-    border-radius: 5px;
     box-shadow: 1px 1px 4px black;
     padding: 5px;
     text-align: center;
     margin-left: 10cm;
+    border-style: double;
 }
 a.y:hover {
-    color: aqua;
+    color: #573A22;
     background-color: burlywood;
 }
 a.z {
-    background-color: crimson;
-    border-color: crimson;
+    background-color: #BE7A37;
+    border-color: #BE7A37;
     font-size: 30px;
-    border-radius: 5px;
     box-shadow: 1px 1px 4px black;
     padding: 5px;
     text-align: center;
     margin-right: -10cm;
+    border-style: double;
 }
 a.z:hover {
-    color: aqua;
+    color: #573A22;
     background-color: burlywood;
 }
