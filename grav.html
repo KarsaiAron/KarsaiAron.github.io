@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="cnv" width="500" height="300"></canvas>
+    <script>
+        var cnv = document.getElementById("cnv");
+        var ctx = cnv.getContext("2d");
+        ctx.fillStyle = "black";
+        var x = 250;
+        var y = 0;
+        var vx = 10;
+        var vy = 0;
+        var g = 0.1;
+        var kappan = 0.5;
+        setInterval(() => {
+            ctx.clearRect(0, 0, 500, 300);
+            ctx.fillRect(x, y, 30, 30);
+            vy += g;
+            y += vy;
+            x += vx;
+            if ((y > 270) && (vy != 0)) {
+                vy *= -1;
+                ctx.fillStyle= `rgb(${Math.random()*255},${Math.random()*255}, ${Math.random()*255})`;
+            }
+            if ((x < 0) || (x > 470)) {
+                vx *= -1;
+                ctx.fillStyle= `rgb(${Math.random()*255},${Math.random()*255}, ${Math.random()*255})`;
+            }
+        }, 20);
+    </script>
+    <style>
+        #cnv {
+            border: 2px solid black;
+        }
+    </style>
+</body>
+</html>
