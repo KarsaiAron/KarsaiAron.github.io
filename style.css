@@ -1,0 +1,148 @@
+ h1 {
+    color: white;
+    font-size: 1cm;
+    font-family: sans-serif;
+    margin: auto;
+    width: 400px;
+    letter-spacing: 2pt;
+
+}
+a {
+    color: white;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+    width: 5cm;
+    margin-top: 1cm;
+    text-decoration: none;
+
+}
+#honlap {
+    color: white;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+    width: 6cm;
+    margin-top: 0cm;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+}
+body {
+    background-image: url(hatter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    width: 150px;
+    margin-top: 1cm;
+    margin-left: 1cm;
+}
+#kép {
+    width: 300px;
+}
+a.x:hover {
+    color: #573A22;
+    background-color: burlywood;
+}
+a.x {
+    background-color: #BE7A37;
+    border-color: #BE7A37;
+    font-size: 30px;
+    box-shadow: 1px 1px 4px black;
+    padding: 5px;
+    text-align: center;
+    border-style: double;
+    
+}
+a.y {
+    background-color: #BE7A37;
+    border-color: #BE7A37;
+    font-size: 30px;
+    box-shadow: 1px 1px 4px black;
+    padding: 5px;
+    text-align: center;
+    margin-left: 10cm;
+    border-style: double;
+}
+a.y:hover {
+    color: #573A22;
+    background-color: burlywood;
+}
+a.z {
+    background-color: #BE7A37;
+    border-color: #BE7A37;
+    font-size: 30px;
+    box-shadow: 1px 1px 4px black;
+    padding: 5px;
+    text-align: center;
+    border-style: double;
+}
+a.z:hover {
+    color: #573A22;
+    background-color: burlywood;
+}
+.back {
+    margin-right: 25cm;
+    border-style: dotted;
+    text-align: center;
+    margin-bottom: 4cm;
+    color: black;
+
+}
+.back:hover {
+    color: #BE7A37;
+}
+a.f {
+    background-color: #BE7A37;
+    border-color: #BE7A37;
+    font-size: 30px;
+    box-shadow: 1px 1px 4px black;
+    padding: 5px;
+    text-align: center;
+    margin-right: 17.6cm;
+    border-style: double;
+}
+.nemtom {
+    margin-left: 6cm;
+}
+.eztse {
+    margin-left: 12cm;
+}
+a.h {
+    background-color: #BE7A37;
+    border-color: #BE7A37;
+    font-size: 30px;
+    box-shadow: 1px 1px 4px black;
+    padding: 5px;
+    text-align: center;
+    border-style: double;
+}
+a.h:hover {
+    color: #573A22;
+    background-color: burlywood;
+}
+a.k {
+    background-color: #BE7A37;
+    border-color: #BE7A37;
+    font-size: 30px;
+    box-shadow: 1px 1px 4px black;
+    padding: 5px;
+    text-align: center;
+    border-style: double;
+}
+a.b {
+    background-color: #BE7A37;
+    border-color: #BE7A37;
+    font-size: 30px;
+    box-shadow: 1px 1px 4px black;
+    padding: 5px;
+    text-align: center;
+    border-style: double;
+    display: inline;
+}
+#alma {
+    display: inline;
+}
